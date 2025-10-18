@@ -16,6 +16,14 @@ A metodologia proposta abrange:
 ```
 projeto-subvaloracao-remessas/
 ├── data/ # Dados sintéticos e arquivos de produtos legitimos
+│ ├── prod-elect-relog-roup-bols_limpio.csv # Arquivo de entrada para criação do dataset sintético de produtos
+│ ├── prod-elect-relog-roup-bols_fake.csv # Dataset sintético de produtos
+│ ├── prod-elect-relog-roup-bols_fake_sem_desc_val.csv # Dataset sintético de DIRs, sem geração de descrições ou valores
+│ ├── dir-elect-relog-roup-bols_fake_sem_desc_com_val.csv # Dataset sintético de DIRs, com valores gerados por LLM, sem geração de descrições
+│ ├── dir-elect-relog-roup-bols_fake_com_desc_com_val.csv # Dataset sintético de DIRs, com valores e descrições gerados por LLM
+│ ├── dir-elect-relog-roup-bols_fake_com_desc_com_val_limpio.csv  # Dataset sintético de DIRs, com valores e descrições gerados por LLM, versão limpa
+│ ├── relatorio_DIR_selecionada.csv # Lista de DIRs com valores estimados e índice de similaridade
+| └── analisis_res_selecao_DIR.xlsx # Resumo em Excel das DIRs selecionadas
 ├── src/ # Códigos-fonte (.py)
 │ ├── limpieza_csv_pandas.py # Limpeza e processamento de texto
 │ ├── db_fake.py # Geração do conjunto de dados sintéticos de produtos
