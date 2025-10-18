@@ -39,8 +39,8 @@ projeto-subvaloracao-remessas/
  pip install -r requirements.txt
 
 # Executar os scripts principais
- python src/gerador_base_fake.py \
- python src/traducao.py
+ python src/RAG_prod_search_llama.py \
+ python src/seleccion_DIRs.py
 
 Projeto desenvolvido no âmbito do Mestrado em Engenharia de Produção e de Manufatura, FCA, UNICAMP, sob orientação dos prof. Cristiano Morini e Anibal Tavarez de Azevedo
 Desenvolvido por Tania Lujan Alaya
