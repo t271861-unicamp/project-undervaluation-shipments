@@ -39,7 +39,7 @@ project-undervaluation-shipments/
 ```
 # Clone repository
    bash
-   git clone https://github.com/SEU_USUARIO/projeto-subvaloracao-remessas.git \
+   git clone https://github.com/SEU_USUARIO/project-undervaluation-shipments.git \
    cd projeto-subvaloracao-remessas
 
 # Install dependencies
